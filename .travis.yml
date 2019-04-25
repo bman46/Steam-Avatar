@@ -3,3 +3,4 @@ matrix:
   include:
     - php: 5.5
     - php: 7.2
+script: phpunit --coverage-text
